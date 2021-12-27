@@ -4,24 +4,24 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'build'
+                echo 'hello world application buliding'
             }
         }
         stage('test') {
             steps {
-                echo 'testing'
+                echo ' hello world application testing'
             }
             
         }
         stage('deploy') {
             steps {
-                echo 'deploying'
+                echo ' hello world application deploying'
             }
             
         }
         stage('release') {
             steps {
-                echo 'realesing'
+                echo 'hello world application realesing'
             }
             
         }
